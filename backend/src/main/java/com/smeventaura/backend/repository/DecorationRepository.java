@@ -1,0 +1,1 @@
+package com.smeventaura.backend.repository;import com.smeventaura.backend.model.Decoration;import org.springframework.data.jpa.repository.JpaRepository;public interface DecorationRepository extends JpaRepository<Decoration,Long>{}

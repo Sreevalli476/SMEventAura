@@ -1,0 +1,1 @@
+package com.smeventaura.backend.repository;import com.smeventaura.backend.model.ContactMessage;import org.springframework.data.jpa.repository.JpaRepository;public interface ContactMessageRepository extends JpaRepository<ContactMessage,Long>{}

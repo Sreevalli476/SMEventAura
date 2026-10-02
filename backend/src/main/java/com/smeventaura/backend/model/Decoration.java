@@ -1,0 +1,3 @@
+package com.smeventaura.backend.model;
+import jakarta.persistence.*;
+@Entity @Table(name="decorations") public class Decoration { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) Long id; @Column(nullable=false) String title; @Column(nullable=false) String category; @Column(nullable=false,length=1000) String description; @Column(nullable=false,length=1000) String imageUrl; public Long getId(){return id;}public String getTitle(){return title;}public void setTitle(String v){title=v;}public String getCategory(){return category;}public void setCategory(String v){category=v;}public String getDescription(){return description;}public void setDescription(String v){description=v;}public String getImageUrl(){return imageUrl;}public void setImageUrl(String v){imageUrl=v;} }

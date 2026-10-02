@@ -1,0 +1,1 @@
+package com.smeventaura.backend.dto;import java.time.*;public final class BookingDtos{private BookingDtos(){} public record Create(String name,String phone,String eventType,LocalDate eventDate,String venue,String budget,String message){} public record Status(String status){} }

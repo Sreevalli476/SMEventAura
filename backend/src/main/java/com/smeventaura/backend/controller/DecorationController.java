@@ -1,0 +1,1 @@
+package com.smeventaura.backend.controller;import com.smeventaura.backend.repository.DecorationRepository;import org.springframework.web.bind.annotation.*;@RestController @RequestMapping("/api/decorations") public class DecorationController{final DecorationRepository repo;DecorationController(DecorationRepository r){repo=r;}@GetMapping public Object all(){return repo.findAll();}}
